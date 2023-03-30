@@ -1,0 +1,43 @@
+.jumbotron {
+    background-image: url('https://free4kwallpapers.com/uploads/originals/2021/10/17/a-cool-dark-mountain-wallpaper.png');
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    color: white;
+  }
+  
+  .card {
+    margin-bottom: 30px;
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+  
+  
+ 
+ /* Botón de hamburguesa */
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #e5e5e5;
+  }
+  
+  /* Estilos para pantallas pequeñas */
+  @media (max-width: 767px) {
+    /* Fondo del menú */
+    .navbar {
+      border: none;
+    }
+  }
