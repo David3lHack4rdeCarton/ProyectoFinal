@@ -17,7 +17,7 @@ require_once '../Conexion/conexion.php';
 	<div class="container">
 		<h1 class="text-center my-5">Insertar usuarios</h1>
 
-		<form method="POST" action="insertuser.php">
+		<form method="POST" action="Insertuser.php">
 			<div class="mb-3">
 				<label for="nombre" class="form-label">Nombre:</label>
 				<input type="text" name="nombre" id="nombre" class="form-control">

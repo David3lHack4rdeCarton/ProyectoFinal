@@ -32,7 +32,7 @@ echo "<script>
         showConfirmButton: false,
         timer: 1500
     }).then(() => {
-        window.location.href = 'consultuser.php';
+        window.location.href = 'Consultuser.php';
     });
 </script>";
 

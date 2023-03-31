@@ -33,7 +33,7 @@ if($_SESSION['usuario']['rol'] !== 'admin') {
 		<div class="row">
 			<div class="col-12">
 				<h1>Usuarios registrados</h1>
-                <a href="formularioinser.php" class="btn btn-primary"><i class="fas fa-user-plus"></i> Agregar usuario</a>
+                <a href="Formularioinser.php" class="btn btn-primary"><i class="fas fa-user-plus"></i> Agregar usuario</a>
 
 				<table class="table table-striped">
 					<thead>

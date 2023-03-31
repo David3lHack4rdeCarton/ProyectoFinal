@@ -27,7 +27,7 @@ if(!isset($_SESSION['usuario'])){
 		<div class="row">
 			<div class="col-12">
 				<h1>Blogs </h1>
-                <a href="formblog.php" class="btn btn-primary"><i class="fas fa-user-plus"></i> agregar blogs</a>
+                <a href="Formblog.php" class="btn btn-primary"><i class="fas fa-user-plus"></i> agregar blogs</a>
 
 				<table class="table table-striped">
 					<thead>
