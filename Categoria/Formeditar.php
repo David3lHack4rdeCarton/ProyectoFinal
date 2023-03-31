@@ -20,7 +20,7 @@ $Categoria = $coleccion_categorias->findOne(['_id' => new MongoDB\BSON\ObjectID(
 	<div class="container">
 		<h1 class="text-center my-5">Editar Categorias</h1>
 
-		<form method="POST" action="editacat.php">
+		<form method="POST" action="Editacat.php">
 			<div class="mb-3">
 				<label for="nombre" class="form-label">Nombre:</label>
 				<input type="text" name="nombre" id="nombre" class="form-control" value="<?php echo $Categoria['nombre'] ?>">

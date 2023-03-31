@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         showConfirmButton: false,
         timer: 1500
     }).then(() => {
-        window.location.href = 'consultacat.php';
+        window.location.href = 'Consultacat.php';
     });
   </script>";
 }

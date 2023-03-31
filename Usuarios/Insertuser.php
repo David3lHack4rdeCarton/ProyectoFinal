@@ -43,7 +43,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
           icon: 'success',
           confirmButtonText: 'Ok',
           willClose: () => {
-            window.location.href = 'consultuser.php'; // Redirigir a la página de usuarios
+            window.location.href = 'Consultuser.php'; // Redirigir a la página de usuarios
           }
         });
       </script>";

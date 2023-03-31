@@ -59,7 +59,7 @@ if($_SESSION['usuario']['rol'] !== 'admin') {
 								echo "<tr>";
 								echo "<td>" . $documento->nombre . "</td>";
 								echo "<td>" . $documento->descripcion . "</td>";
-								echo '<td><a href="formeditar.php?id=' . $documento->_id . '" class="btn btn-primary"><i class="fas fa-edit"></i></a></td>';
+								echo '<td><a href="Formeditar.php?id=' . $documento->_id . '" class="btn btn-primary"><i class="fas fa-edit"></i></a></td>';
 								echo '<td><a href="eliminarcat.php?id=' . $documento->_id . '" class="btn btn-danger"><i class="fas fa-trash"></i></a></td>';
 								echo "</tr>";
 							}
