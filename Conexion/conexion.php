@@ -2,12 +2,12 @@
 // Conectar a MongoDB
 require_once __DIR__ . '/../vendor/autoload.php';
 
-//$MongoURl = "mongodb+srv://admin:12345@cluster0.1ic62lv.mongodb.net/?retryWrites=true&w=majority";
+$MongoURl = "mongodb+srv://admin:12345@cluster0.1ic62lv.mongodb.net/?retryWrites=true&w=majority";
 
-$cliente = new MongoDB\Client("mongodb://localhost:27017");
+//$cliente = new MongoDB\Client("mongodb://localhost:27017");
 
 
-//$cliente = new MongoDB\Client($MongoURl);
+$cliente = new MongoDB\Client($MongoURl);
 
 
 // Seleccionar una base de datos y una colección
